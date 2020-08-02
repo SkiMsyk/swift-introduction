@@ -66,5 +66,19 @@ let f61 = d61.map({ value in Int(value)})
 print(f61)
 
 // Protocol
-let doubleRight = 3.9
-doubleLeft == doubleRight
+let boolLeft = true
+let boolRight = true
+print(boolLeft == boolRight)
+print(boolLeft != boolRight)
+
+let intLeft = 12
+let intRight = 13
+print(intLeft == intRight)
+print(intLeft != intRight)
+
+let floatLeft = 3.4 as Float
+let floatRight = 3.9 as Float
+print(floatLeft == floatRight)
+print(floatLeft != floatRight)
+
+

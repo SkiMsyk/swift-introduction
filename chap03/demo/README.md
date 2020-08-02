@@ -180,5 +180,34 @@ This means empty tuple. (Void is a tuple has 0 elements.)
 () // Void type
 ```
 
+# Cast
 
+## Upcast
 
+- example: Upcasting from String type to Any type
+
+```swift
+let any = "abc" as Any
+```
+
+# Type judgement
+
+```swift
+let a: Any = 1
+let isInt = a is Int
+```
+
+# Protocol
+
+## Equatable protocol
+Equatable protocol is for verifying equivalence. 
+Verifying is executed by `==` operator.
+
+- `==`, `!=`
+- Equatable protocol deosn't work for `Any` type.
+- Equatable protocol may works `Optional<Wrapped>` type when `Wrapped` type complies with equatable protocol.
+
+## Comparable protocol
+
+- `<`, `>`, `<=`, `>=`
+- 
