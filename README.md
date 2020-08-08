@@ -8,3 +8,5 @@ mkdir [foldername]
 cd [foldername]
 swift package init --type executable
 ```
+
+# new macbook pro commit
